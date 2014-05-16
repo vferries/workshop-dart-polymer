@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Dart - Polymer</title>
+
+		<meta name="description" content="Une toute petite présentation sur Dart">
+		<meta name="author" content="Vincent FERRIES">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/fullscreen-img.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+					<img style="border:0; background: none; box-shadow: none" src="images/dart-logo-wordmark.png" alt="Dart logo"></img>
+					<h3>Scalable Web App Engineering</h3>
+					<p>
+						<small>By <a href="http://blog.genigraph.fr/author/vferries/">Vincent FERRIES</a> / <a href="http://twitter.com/VincentFERRIES">@VincentFERRIES</a></small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Don't we allready have what we need?</h2>
+						<ul>
+							<li class="fragment">JavaScript!</li>
+							<li class="fragment">Even GWT / Vaadin to code in Java</li>
+							<li class="fragment">Applets !</li>
+							<li class="fragment">And finally...</li>
+							<li class="fragment">We've got JavaScript!</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Let's talk about JavaScript!</h2>
+						<p>
+							<video controls src="images/wat.mov">Destroy all software</video>
+						</p>
+					</section>
+					<section>
+						<h2>Let's talk about GWT!</h2>
+						<pre><code data-trim class="java">
+public class Hello implements EntryPoint {
+
+  public void onModuleLoad() {
+    Button b = new Button("Click me", new ClickHandler() {
+      public void onClick(ClickEvent event) {
+        Window.alert("Hello, AJAX");
+      }
+    });
+
+    RootPanel.get().add(b);
+  }
+}
+					</code></pre>
+					</section>
+					<section>
+						<h2>Let's talk about Applets!</h2>
+						<p>
+							Just kidding, applets are dead!
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<img src="images/darty.png" style="border:0; background: none; box-shadow: none"></img>
+					<h2>Le contrat de confiance</h2>
+						<ul>
+							<li>A Language</li>
+							<li>Web Components (Polymer and Angular)</li>
+							<li>An editor (many actually)</li>
+							<li>A virtual machine</li>
+							<li>Pub</li>
+						</ul>
+				</section>
+
+				<section>
+					<h2>The Killer Feature</h2>
+					<img src="images/transformers.png" style="border:0; background: none; box-shadow: none"></img>
+					<p>dart2js</p>
+				</section>
+
+				<section>
+					<h2>Base concepts</h2>
+					<ul>
+						<li>Everything is an object</li>
+						<li>Optional Types</li>
+						<li>Production mode / Checked mode</li>
+						<li>No private keyword but _</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Some examples</h2>
+						<pre><code data-trim contenteditable class="dart">
+var bigInt = 1234567890234568972349642987923445778389768989647678576;
+
+String interpolated = "Amount: $bigInt";
+
+var complexInterpolation = "VAT: ${bigInt * 0.196}";
+
+double onePointOne = double.parse('1.1');
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Complex Types</h2>
+						<pre><code data-trim contenteditable class="dart">
+List list = [1,2,3];
+
+var gifts = {
+	'first': 'Dart Vader',
+	'second': 'Dartagnan',
+	'fifth': 'The Dart Knight'
+};
+
+Map nobleGases = {2: 'helium', 10: 'neon', 18: 'argon'};
+
+var gifts = new Map();
+gifts['first'] = 'Alone in the Dart 2';
+gifts['second'] = 'The Dartist';
+assert(gifts.length == 2);
+						</code></pre>
+				</section>
+
+				<section>
+					<h2>Classes</h2>
+					<pre><code data-trim contenteditable class="dart">
+class Point {
+	num x, y;
+	Point(this.x, this.y);
+	Point.zero() : x = 0, y = 0;
+	String toString() => '($x, $y)';
+}
+					</code></pre>
+					<pre><code data-trim contenteditable class="dart">
+Point pos = new Point(2, 3.4);
+String pStr = new Point.zero().toString();
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Functional programming</h2>
+					<pre><code data-trim contenteditable class="dart">
+list.forEach((x) => print(x));
+
+map.forEach((k, v) {
+	i++;
+	print('$i - $k = $v');
+});
+
+square(x) => x*x;
+list.map(square);
+
+list = ['Cap Gemini', 'Genigraph', 'Atos'];
+list.filter((name) => name.startsWith('G'));
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Builders are over...</h2>
+					<pre><code data-trim contenteditable class="dart">
+var myObject = new MyObject();
+myObject.setName("EclipseCon");
+myObject.setSize(42);
+myObject.callMethod(3);
+return myObject;
+
+return new MyObject()
+	..setName("EclipseCon")
+	..setSize(42)
+	..callMethod(3);
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>DOM Manipulation</h2>
+					<pre><code data-trim contenteditable class="dart">
+querySelector("#myId").classes.add("success");
+
+querySelectorAll("#myId li").forEach((el){
+	el.on.mouseOver.add("selected");
+	el.on.mouseOut.remove("selected");
+});
+					</code></pre>
+				</section>
+
+				<section>
+					<h1>Polymer</h1>
+					<img style="border:0; background: none; box-shadow: none" src="images/polymer-logo.svg" alt="Polymer logo"></img>
+				</section>
+
+				<section fullscreen-img="images/DeLorean_Launch.gif">
+				</section>
+
+				<section>
+					<h2>Good old time!</h2>
+					<img style="border:0; background: none; box-shadow: none" src="images/netscape.gif" alt="olf form in Netscape"></img>
+				</section>
+					
+				<section>
+					<h2>PAST</h2>
+					<pre><code data-trim contenteditable class="html">
+&lt;select multiple&gt;
+	&lt;option&gt;Dart&lt;/option&gt;
+	&lt;option&gt;JavaScript&lt;/option&gt;
+	&lt;option&gt;Polymer&lt;/option&gt;
+	&lt;p&gt;What if we write something else here?&lt;/p&gt;
+&lt;/select&gt;
+					</code></pre>
+					<select multiple>
+						<option>Dart</option>
+						<option>JavaScript</option>
+						<option>Polymer</option>
+						<p>What if we write something else here?</p>
+					</select>
+				</section>
+
+				<section>
+					<h2>PAST</h2>
+					<pre><code data-trim contenteditable class="html">
+&lt;select&gt;
+	&lt;optgroup label="Front-End"&gt;
+		&lt;option selected&gt;Dart&lt;/option&gt;
+		&lt;option disabled&gt;JavaScript&lt;/option&gt;
+		&lt;option&gt;Polymer&lt;/option&gt;
+	&lt;/optgroup&gt;
+	&lt;optgroup label="Back-End"&gt;
+		&lt;option&gt;Dart&lt;/option&gt;
+		&lt;option&gt;JavaScript&lt;/option&gt;
+		&lt;option disabled&gt;Polymer&lt;/option&gt;
+	&lt;/optgroup&gt;
+	&lt;p&gt;What if we write something else here?&lt;/p&gt;
+&lt;/select&gt;
+					</code></pre>
+					<select>
+						<optgroup label="Front-End">
+							<option selected>Dart</option>
+							<option disabled>JavaScript</option>
+							<option>Polymer</option>
+						</optgroup>
+						<optgroup label="Back-End">
+							<option>Dart</option>
+							<option>JavaScript</option>
+							<option disabled>Polymer</option>
+						</optgroup>
+					</select>
+				</section>
+
+				<section>
+					<h2>Defining a Custom Element</h2>
+					<pre><code>
+<polymer-element name="hello-you" noscript>
+  <template>
+    <p>Hello EclipseCon France!</p>
+  </template>
+</polymer-element>
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Using Custom Element</h2>
+					<p>In the head section</p>
+					<pre><code>
+  &lt;link rel="import" href="hello_world.html"&gt;
+  &lt;script type="application/dart"&gt;
+  	export 'package:polymer/init.dart';
+  &lt;/script&gt;
+  &lt;script src="packages/browser/dart.js"&gt;&lt;/script&gt;
+</code></pre>
+					<p>Simply use it</p>
+					<pre><code>
+&lt;hello-you&gt;&lt;/hello-you&gt;
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>Data binding</h2>
+					<h3>In the template</h3>
+<pre><code>
+&lt;polymer-element name="click-counter"&gt;
+  &lt;template&gt;
+    &lt;button on-click="{{increment}}"&gt;Click Me&lt;/button&gt;
+    &lt;p&gt;You clicked the button {{count}} times.&lt;/p&gt;
+  &lt;/template&gt;
+  &lt;script type="application/dart" src="click_counter.dart"&gt;&lt;/script&gt;
+&lt;/polymer-element&gt;
+</code></pre>
+				</section>
+				<section>
+					<h2>Data binding</h2>
+					<h3>In the script</h3>
+<pre><code>
+import 'package:polymer/polymer.dart';
+import 'dart:html';
+
+@CustomTag('click-counter')
+class ClickCounterElement extends PolymerElement {
+  @observable int count = 0;
+
+  ClickCounterElement.created() : super.created();
+
+  void increment(Event e, var detail, Node target) {
+    count += 1;
+  }
+}
+</code></pre>
+				</section>
+				<section>
+					<h2>Shadow DOM</h2>
+					<pre><code><content select=".email"></content></code></pre>
+				</section>
+				<section>
+					<h1>&lt;thank-you&gt;</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+		        	{ src: 'lib/js/fullscreen-img.js' },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
