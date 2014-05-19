@@ -1,0 +1,462 @@
+[
+	{
+		"name": "Petyr Baelish (\"Littlefinger\")",
+		"actor": "Aidan Gillen",
+		"gender": "Male",
+		"bio": "Nakedly ambitious, Littlefinger left the Small Council to marry Lysa Arryn and secure the Vale to the Lannister's side. Beyond his official duties, he is the eyes and ears of King's Landing along with Varys."
+	},
+	{
+		"name": "Cersei Baratheon",
+		"actor": "Lena Headey",
+		"gender": "Female",
+		"bio": "Queen Regent of the Seven Kingdoms, Cersei is fiercely protective of her three children. Even before she was married to Robert Baratheon, she was involved in a relationship with her twin brother, Jaime. Like her father, Cersei is interested in maintaining her position of power."
+	},
+	{
+		"name": "Joffrey Baratheon",
+		"actor": "Jack Gleeson",
+		"gender": "Male",
+		"bio": "Over-indulged and cowardly, the young king has a cruel streak, particularly when it comes to those who are vulnerable."
+	},
+	{
+		"name": "Margaery Tyrell",
+		"actor": "Natalie Dormer",
+		"gender": "Female",
+		"bio": "Mace Tyrell's only daughter, she is as clever as she is beautiful. Renly Baratheon's widow, she is now engaged to Joffrey Baratheon."
+	},
+	{
+		"name": "Stannis Baratheon",
+		"actor": "Stephen Dillane",
+		"gender": "Male",
+		"bio": "A serious man who preferred the solitude of the family seat in Dragonstone to King's Landing, Stannis is still challenging his nephew Joffrey for the Iron Throne. The priestess Melisandre helped him murder his brother Renly and narrow the field of rivals."
+	},
+	{
+		"name": "Roose Bolton",
+		"actor": "Michael McElhatton",
+		"gender": "Male",
+		"bio": "Lord of the Dreadfort and head of House Bolton, Roose takes pride in his family's sigil of a flayed man. A proven soldier who joined Robb Stark on the battlefield, Lord Bolton subsequently betrayed him to gain favor with Tywin Lannister."
+	},
+	{
+		"name": "Brienne of Tarth",
+		"actor": "Gwendoline Christie",
+		"gender": "Female",
+		"bio": "Brienne is a highborn lady who would rather be a knight. As Catelyn Stark's envoy, she escorted Jaime Lannister back to Kings Landing. The two fighters developed a mutual respect for each other during their journey."
+	},
+	{
+		"name": "Bronn",
+		"actor": "Jerome Flynn",
+		"gender": "Male",
+		"bio": "A mercenary, Bronn joined up with Tyrion Lannister in return for a rich reward. Bronn was knighted for his bravery during the Battle of the Blackwater."
+	},
+	{
+		"name": "Sandor Clegane (\"The Hound\")",
+		"actor": "Rory McCann",
+		"gender": "Male",
+		"bio": "The Hound was the personal bodyguard to King Joffrey and carried out his commands, no matter how monstrous. After abandoning King's Landing during the Battle of the Blackwater, the Hound encountered Arya Stark in the Riverlands and been traveling with her ever since, in the hopes of collecting a ransom from her family."
+	},
+	{
+		"name": "Theon Greyjoy",
+		"actor": "Alfie Allen",
+		"gender": "Male",
+		"img": "theon.jpg",
+		"bio": "A former ward of House Stark, Theon was quick to join his close friend Robb in his rebellion against King Joffrey. But upon returning to Pyke as Robb's envoy, Theon betrayed the family that raised him. He seized Winterfell, but was taken prisoner by Ramsay Snow, who tortured him into renouncing his true identity."
+	},
+	{
+		"name": "Jaime Lannister",
+		"actor": "Nikolaj Coster-Waldau",
+		"gender": "Male",
+		"bio": "Cersei's twin brother and the Lord Commander of the Kingsguard, it was he who slew the Mad King in violation of his oath to protect the royal family. After Jaime was captured by Catelyn Stark, Brienne of Tarth escorted him back to King's Landing.  Jaime lost his sword hand to Roose Bolton's henchman, Locke, along the way."
+	},
+	{
+		"name": "Tyrion Lannister",
+		"actor": "Peter Dinklage",
+		"gender": "Male",
+		"img": "tyrion.png",
+		"bio": "What Tyrion lacks in size and strength, he makes up for in mental acuity. Former Hand of the King in his father's absence, he now serves as Master of Coin on the Small Council. He married Sansa Stark at his father's insistence, but he continues to treat her with the utmost respect."
+	},
+	{
+		"name": "Tywin Lannister",
+		"actor": "Charles Dance",
+		"gender": "Male",
+		"bio": "Father of Cersei, Jaime and Tyrion, Tywin Lannister is the wealthiest man in the Seven Kingdoms. He serves as the Hand of the King to his grandson Joffrey."
+	},
+	{
+		"name": "Oberyn Martell",
+		"actor": "Pedro Pascal",
+		"gender": "Male",
+		"img": "oberyn.png",
+		"bio": "A younger prince of Dorne, Oberyn Martell is also a fierce fighter who earned the nickname, the \"Red Viper.\""
+	},
+	{
+		"name": "Melisandre",
+		"actor": "Carice van Houten",
+		"gender": "Female",
+		"bio": "A Red priestess from Asshai, Melisandre worships the Lord of Light. Her visions have told her that Stannis is the true king and as his advisor, she has encouraged him to pursue the throne at all costs."
+	},
+	{
+		"name": "Jeor Mormont (Lord Commander)",
+		"actor": "James Cosmo",
+		"gender": "Male",
+		"bio": "The father of the disgraced knight Jorah Mormont and Lord Commander of the Night's Watch, he took Jon Snow under his wing and is training him to lead."
+	},
+	{
+		"name": "Jorah Mormont",
+		"actor": "Iain Glen",
+		"gender": "Male",
+		"bio": "The son of Lord Commander Jeor Mormont, he lives in exile in Essos acting as an advisor to Daenerys Targaryen. Although Jorah originally joined Dany's company to spy on her, he has since become devoted to her."
+	},
+	{
+		"name": "Mance Rayder",
+		"actor": "Ciaran Hinds",
+		"gender": "Male",
+		"bio": "Once a brother of the Night's Watch, Mance abandoned his vows to join the wildlings. He serves as their King Beyond the Wall."
+	},
+	{
+		"name": "Davos Seaworth",
+		"actor": "Liam Cunningham",
+		"gender": "Male",
+		"bio": "A reformed smuggler, it was Davos who provided Stannis' forces much-needed provisions during the long siege of Storm's End. He serves as Hand to King Stannis."
+	},
+	{
+		"name": "Shae",
+		"actor": "Sibel Kelkilli",
+		"gender": "Female",
+		"bio": "A prostitute who made an immediate impression on Tyrion Lannister, Shae joined him in King's Landing in direct defiance of his father's order to keep her away from court. She serves as Sansa Starks handmaid."
+	},
+	{
+		"name": "Jon Snow",
+		"actor": "Kit Harington",
+		"gender": "Male",
+		"bio": "Ned Stark's bastard son, Jon joined the Night's Watch. On a mission for Lord Commander Mormont, Jon infiltrated the wildlings by pretending to forsake his Night Watch brothers. In doing so, he fell in love with Ygritte, a wildling woman."
+	},
+	{
+		"name": "Ramsay Snow",
+		"actor": "Iwan Rheon",
+		"gender": "Male",
+		"bio": "A bastard son of Roose Bolton, Ramsay's bloodlust is even stronger than his father's. After taking Winterfell, he captured Theon Greyjoy and slowly tortured him into submission."
+	},
+	{
+		"name": "Arya Stark",
+		"actor": "Maisie Williams",
+		"gender": "Female",
+		"bio": "The younger of the Stark daughters, Arya has put her survival skills to use as she continues to evade the Lannister forces that seek her. En route to the Twins in search of her mother and brother, she arrived at the castle after the Red Wedding."
+	},
+	{
+		"name": "Bran Stark",
+		"actor": "Isaac Hempstead-Wright",
+		"gender": "Male",
+		"bio": "Crippled after Jaime Lannister pushed him from a tower, Bran travels with his bannermen Jojen and Meera Reed to fulfill the visions that he and Jojen share."
+	},
+	{
+		"name": "Catelyn Stark",
+		"actor": "Michelle Fairley",
+		"gender": "Female",
+		"bio": "The widow of Ned Stark, Cat has been trying to reunite her scattered family while respecting the wishes of her eldest son Robb, King in the North."
+	},
+	{
+		"name": "Robb Stark",
+		"actor": "Richard Madden",
+		"gender": "Male",
+		"bio": "Lord of Winterfell and now King in the North, Robb plans to avenge his father's death and bring his sisters home. His direwolf is named Grey Wind."
+	},
+	{
+		"name": "Sansa Stark",
+		"actor": "Sophie Turner",
+		"gender": "Female",
+		"bio": "The oldest Stark daughter, Sansa has since realized that King's Landing isn't the fairy tale she assumed it would be. After her engagement to King Joffrey dissolved, Sansa was married to his uncle Tyrion Lannister, who has always treated her with the utmost respect."
+	},
+	{
+		"name": "Daenerys Targaryen",
+		"actor": "Emilia Clarke",
+		"gender": "Female",
+		"img": "daenerys.jpg",
+		"bio": "Princess of House Targaryen, Daenerys lives in exile in Essos with her advisors and dragons. Dany rallied the Unsullied of Astapor to her cause and continues to grow the army she needs to take back the throne."
+	},
+	{
+		"name": "Samwell Tarly",
+		"actor": "John Bradley",
+		"gender": "Male",
+		"bio": "Sam was forced to join the Night's Watch by his father as a means to disinherit him. He fell in love with Craster's daughter Gilly, and fled with her and her newborn son into the wilderness after a band of Night's Watch brothers rebelled at Craster's Keep."
+	},
+	{
+		"name": "Tormund",
+		"actor": "Kristofer Hivju",
+		"gender": "Male",
+		"bio": "A legendary wildling leader who supports Mance Rayder, Tormund is a fair and formidable warrior."
+	},
+	{
+		"name": "Olenna Tyrell",
+		"actor": "Diana Rigg",
+		"gender": "Female",
+		"bio": "Matriarch of House Tyrell, Lady Olenna is not shy about sharing her opinions. Although fond of her granddaughter Margaery, she feels less generous toward the men in her family"
+	},
+	{
+		"name": "Varys",
+		"actor": "Conleth Hill",
+		"gender": "Male",
+		"bio": "A eunuch and a member of the Small Council, Varys is also a master of disguise. Along with Littlefinger, he is always aware of what goes on in Court."
+	},
+	{
+		"name": "Ygritte",
+		"actor": "Rose Leslie",
+		"gender": "Female",
+		"bio": "A wildling woman that Jon Snow encountered traveling beyond the Wall, Ygritte is fiercely proud of her free status. Her opinions have clouded Jon's stance about the Night's Watch."
+	},
+	{
+		"name": "Maester Aemon",
+		"actor": "Peter Vaughan",
+		"gender": "Male",
+		"bio": "The elderly, blind maester of the Night's Watch who is sympathetic to Jon Snow's plight."
+	},
+	{
+		"name": "Lysa Arryn",
+		"actor": "Kate Dickie",
+		"gender": "Female",
+		"bio": "Catelyn Stark's younger sister and the wife of Jon Arryn, the former Hand of the King. Both she and Catelyn were raised with Petyr Baelish."
+	},
+	{
+		"name": "Robin Arryn",
+		"actor": "Lino Facioli",
+		"gender": "Male",
+		"bio": "Lysa and Jon Arryn's seven-year-old son, Robin is delicate and very dependent on his mother for a boy his age."
+	},
+	{
+		"name": "Myrcella Baratheon",
+		"actor": "Aimee Richardson",
+		"gender": "Female",
+		"bio": "Fair-haired and demure, Myrcella now lives in Dorne as part of a deal her uncle Tyrion made with House Martell to align their houses and keep the princess safe."
+	},
+	{
+		"name": "Renly Baratheon",
+		"actor": "Gethin Anthony",
+		"gender": "Male",
+		"bio": "The youngest of the three Baratheon brothers, Renly believes he will be a better king than his brother Stannis or his nephew Joffrey. With the backing of his close companion Ser Loras Tyrell, he aims to prove it."
+	},
+	{
+		"name": "Robert Baratheon",
+		"actor": "Mark Addy",
+		"gender": "Male",
+		"bio": "King of the Seven Kingdoms of Westeros and longtime friend of Ned Stark.  Robert was engaged to Ned's sister, Lyanna, whose abduction by Prince Rhaegar Targaryen incited Robert's uprising against the throne.  When Lyanna died during the war, Robert married Cersei Lannister."
+	},
+	{
+		"name": "Tommen Baratheon",
+		"actor": "Callum Wharry",
+		"gender": "Male",
+		"bio": "The youngest of Robert and Cersei's children, Tommen is next in line to the throne. Like his sister Myrcella, he is easy-going and fond of his uncle Tyrion."
+	},
+	{
+		"name": "Jory Cassel",
+		"actor": "Jamie Sives",
+		"gender": "Male",
+		"bio": "Rodrik's nephew, he is captain of Ned's household guard and a trusted friend."
+	},
+	{
+		"name": "Rodrik Cassel",
+		"actor": "Ron Donachie",
+		"gender": "Male",
+		"bio": "Master-at-arms of Winterfell, he trained the Stark boys to fight."
+	},
+	{
+		"name": "Beric Dondarrion",
+		"actor": "Richard Dormer",
+		"gender": "Male",
+		"bio": "Lord Beric of Blackhaven, he was tasked by Ned Stark, then Hand of the King, to bring Gregor Clegane to justice. A follower of the Red faith, Beric has been brought back to life several times by Thoros of Myr."
+	},
+	{
+		"name": "Khal Drogo",
+		"actor": "Jason Momoa",
+		"gender": "Male",
+		"bio": "The warrior leader of a vast tribe of horseman in Essos."
+	},
+	{
+		"name": "Syrio Forel",
+		"actor": "Miltos Yeromelou",
+		"gender": "Male",
+		"bio": "A master swordsman from the sea-faring isles of Braavos, he teaches his homeland's unique fighting style, known as Water Dancing."
+	},
+	{
+		"name": "Gendry",
+		"actor": "Joe Dempsie",
+		"gender": "Male",
+		"bio": "A bastard son of Robert Baratheon, Gendry met and befriended Arya Stark on the road north. Melisandre brought the boy to Dragonstone as a sacrifice for Stannis Baratheon, but Davos Seaworth set him free."
+	},
+	{
+		"name": "Grenn",
+		"actor": "Mark Stanley",
+		"gender": "Male",
+		"bio": "A strong but slow-witted recruit who joined the Watch at the same time as Jon Snow, Grenn initially resented Jon's arrogance. The two became friends when Jon began teaching him swordsmanship."
+	},
+	{
+		"name": "Balon Greyjoy",
+		"actor": "Patrick Malahide",
+		"gender": "Male",
+		"bio": "Head of the ruling house of the Iron Islands, Balon Greyjoy lost two of his sons in a failed revolt against Robert Baratheon. His only surviving son, Theon, was raised as a ward by the Starks."
+	},
+	{
+		"name": "Yara Greyjoy",
+		"actor": "Gemma Whelan",
+		"gender": "Female",
+		"bio": "Theon's older sister, she is the only child of Balon Greyjoy remaining on the Iron Islands."
+	},
+	{
+		"name": "Hodor",
+		"actor": "Kristian Nairn",
+		"gender": "Male",
+		"bio": "One of Winterfell's many loyal servants, Hodor is simple-minded and oversized."
+	},
+	{
+		"name": "Illyrio",
+		"actor": "Roger Allam",
+		"gender": "Male",
+		"bio": "A wealthy magister in Pentos who acts as guardian for Viserys and Daenerys."
+	},
+	{
+		"name": "Irri",
+		"actor": "Amrita Acharia",
+		"gender": "Female",
+		"bio": "A Dothraki handmaiden who serves Daenerys and teaches her to speak Dothraki."
+	},
+	{
+		"name": "Rickard Karstark",
+		"actor": "John Stahl",
+		"gender": "Male",
+		"bio": "Head of House Karstark, his son died at the hands of Jaime Lannister. Karstark's grief turned to fury when Catelyn Stark set the Kingslayer free."
+	},
+	{
+		"name": "Lancel Lannister",
+		"actor": "Eugene Simon",
+		"gender": "Male",
+		"bio": "A first cousin of Queen Cersei, he bears some resemblance to her brother Jaime. Lancel fought bravely during the Battle of the Blackwater and suffered a grave injury defending the city."
+	},
+	{
+		"name": "Maester Luwin",
+		"actor": "Donald Sumpter",
+		"gender": "Male",
+		"bio": "Maester of Winterfell, he is watching over Bran and Rickon in Robb's absence."
+	},
+	{
+		"name": "Marillion",
+		"actor": "Emun Elliott",
+		"gender": "Male",
+		"bio": "A troubadour in the Riverlands who understands the link between fame and politics."
+	},
+	{
+		"name": "Mirri Maz Duur",
+		"actor": "Mia Soteriou",
+		"gender": "Female",
+		"bio": "A Lhazareen priestess and medicine woman."
+	},
+	{
+		"name": "Septa Mordane",
+		"actor": "Susan Brown",
+		"gender": "Female",
+		"bio": "A sworn follower of the Faith of the Seven, the septa serves as governess to the Stark daughters."
+	},
+	{
+		"name": "Orell",
+		"actor": "Mackenzie Crook",
+		"gender": "Male",
+		"bio": "A wildling scout, he travels with an eagle."
+	},
+	{
+		"name": "Osha",
+		"actor": "Natalia Tena",
+		"gender": "Female",
+		"bio": "A wildling woman who tried to kidnap Bran, she is now a close friend. She is escorting Rickon Stark to Last Hearth for safekeeping."
+	},
+	{
+		"name": "Podrick Payne",
+		"actor": "Daniel Portman",
+		"gender": "Male",
+		"bio": "Podrick is Tyrion's squire. Quiet and unassuming, he saved Tyrion's life at the Battle of the Blackwater."
+	},
+	{
+		"name": "Grand Maester Pycelle",
+		"actor": "Julian Glover",
+		"gender": "Male",
+		"bio": "The aged maester of King's Landing and a member of the Small Council."
+	},
+	{
+		"name": "Pyp",
+		"actor": "Josef Altin",
+		"gender": "Male",
+		"bio": "A flippant young Night's Watch recruit who is sent to the Wall after being accused of stealing."
+	},
+	{
+		"name": "Qyburn",
+		"actor": "Anton Lesser",
+		"gender": "Male",
+		"bio": "Although trained in the medical arts, Qyburn was censured by the Citadel for his unauthorized experiments and does not wear the chains of a maester. He joined Brienne of Tarth and Jaime Lannister on their journey to King's Landing and has remained there since."
+	},
+	{
+		"name": "Rattleshirt",
+		"actor": "Edward Rayder",
+		"gender": "Male",
+		"bio": "A fighter for Mance Rayder, this wildling is named for his armor of animal, human and giant bones."
+	},
+	{
+		"name": "Ros",
+		"actor": "Esmé Bianco",
+		"gender": "Female",
+		"bio": "A prostitute from the North who journeyed to King's Landing, she now works in Littlefinger's brothel and spies for Varys."
+	},
+	{
+		"name": "Barristan Selmy",
+		"actor": "Ian McElhinney",
+		"gender": "Male",
+		"bio": "As a member of the Kingsguard under the former king, Aerys Targaryen, Barristan \"The Bold\" never wavered in his oath to protect. For his commitment, Robert pardoned him and promoted him to Lord Commander."
+	},
+	{
+		"name": "Janos Slynt",
+		"actor": "Dominic Carter",
+		"gender": "Male",
+		"bio": "The commander of the City Watch in King's Landing."
+	},
+	{
+		"name": "Benjen Stark",
+		"actor": "Joseph Mawle",
+		"gender": "Male",
+		"bio": "Ned's younger brother and First Ranger of the Night's Watch, he is a hero of Jon Snow's."
+	},
+	{
+		"name": "Lord Eddard \"Ned\" Stark",
+		"actor": "Sean Bean",
+		"gender": "Male",
+		"bio": "Lord of Winterfell and Warden of the North. The childhood friend of Robert Baratheon, Eddard (\"Ned\") was a key player in Robert's rebellion, helping to win the throne from the Targaryens.  He is married to Catelyn (Tully) Stark."
+	},
+	{
+		"name": "Rickon Stark",
+		"actor": "Art Parkinson",
+		"gender": "Male",
+		"bio": "Rickon, the youngest of the Stark children, is traveling north with Osha. His direwolf is named Shaggydog."
+	},
+	{
+		"name": "Talisa Stark",
+		"actor": "Oona Chaplin",
+		"gender": "Female",
+		"bio": "Although a highborn lady of Volantis, Talisa trained in the medical arts. After meeting on the battlefield, she and Robb Stark were married - breaking a promise he had made to Walder Frey."
+	},
+	{
+		"name": "Viserys Targaryen",
+		"actor": "Harry LLoyd",
+		"gender": "Male",
+		"bio": "Prince of House Targaryen, whose father, the \"Mad\" King Aerys was usurped by King Robert.  Viserys lives in self-exile with his sister Daenerys and is obsessed with regaining his family's throne."
+	},
+	{
+		"name": "Alliser Thorne",
+		"actor": "Owen Teale",
+		"gender": "Male",
+		"bio": "Master-at-arms of Castle Black, it is his job to turn undisciplined recruits into rangers of the Night's Watch."
+	},
+	{
+		"name": "Thoros of Myr",
+		"actor": "Paul Kaye",
+		"gender": "Male",
+		"bio": "A native of the Free City of Myr and a famous soldier, he has since joined the outlaw group the Brotherhood Without Banners. Although Thoros serves as a priest for the Lord of Light, he is fond of drink."
+	},
+	{
+		"name": "Brynden \"the Blackfish\" Tully",
+		"actor": "Clive Russell",
+		"gender": "Male",
+		"bio" : "Brynden, is known as \"The Blackfish\", due to the strained relationship between him and his older brother Hoster. Alongside Barristan Selmy, Brynden showed great heroism during the War of the Ninepenny Kings, a rebellion in the East that threatened the Seven Kingdoms."
+	}
+]
