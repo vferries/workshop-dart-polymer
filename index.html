@@ -44,6 +44,19 @@
 				</section>
 
 				<section>
+					<h2>First thing first...</h2>
+				</section>
+
+				<section>
+					<h2>What we will see today</h2>
+					<ul>
+						<li>A new language for web development</li>
+						<li>Construct both server and client parts</li>
+						<li>Have a glimpse at the future of the web</li>
+					</ul>
+				</section>
+
+				<section>
 					<section>
 						<h2>Don't we allready have what we need?</h2>
 						<ul>
@@ -79,9 +92,7 @@ public class Hello implements EntryPoint {
 					</section>
 					<section>
 						<h2>Let's talk about Applets!</h2>
-						<p>
-							Just kidding, applets are dead!
-						</p>
+						<img src="images/doyou.gif" class="fragment">
 					</section>
 				</section>
 
@@ -129,7 +140,7 @@ double onePointOne = double.parse('1.1');
 				<section>
 					<h2>Complex Types</h2>
 						<pre><code data-trim contenteditable class="dart">
-List list = [1,2,3];
+List&lt;int&gt; list = [1,2,3];
 
 var gifts = {
 	'first': 'Dart Vader',
@@ -144,6 +155,21 @@ gifts['first'] = 'Alone in the Dart 2';
 gifts['second'] = 'The Dartist';
 assert(gifts.length == 2);
 						</code></pre>
+				</section>
+
+				<section>
+					<h2>Methods</h2>
+					<pre><code data-trim contenteditable class="dart">
+setOptions({String url, int port , bool useProxy}) {
+	// Do something with these params
+}
+
+setOptions(useProxy: true, port: 8080);
+
+String doSomething(String param, [List flags]) {
+	// Do something here
+}
+					</code></pre>
 				</section>
 
 				<section>
@@ -208,9 +234,8 @@ querySelectorAll("#myId li").forEach((el){
 					</code></pre>
 				</section>
 
-				<section>
-					<h1>Polymer</h1>
-					<img style="border:0; background: none; box-shadow: none" src="images/polymer-logo.svg" alt="Polymer logo"></img>
+				<section fullscreen-img="images/aloneinthedark.gif">
+					<h1>Alone in the Dart</h1>
 				</section>
 
 				<section fullscreen-img="images/DeLorean_Launch.gif">
@@ -222,8 +247,8 @@ querySelectorAll("#myId li").forEach((el){
 				</section>
 					
 				<section>
-					<h2>PAST</h2>
-					<pre><code data-trim contenteditable class="html">
+					<h2>Once upon a time...</h2>
+					<pre><code data-trim contenteditable class="xml">
 &lt;select multiple&gt;
 	&lt;option&gt;Dart&lt;/option&gt;
 	&lt;option&gt;JavaScript&lt;/option&gt;
@@ -240,7 +265,7 @@ querySelectorAll("#myId li").forEach((el){
 				</section>
 
 				<section>
-					<h2>PAST</h2>
+					<h2>Since at least 1993</h2>
 					<pre><code data-trim contenteditable class="html">
 &lt;select&gt;
 	&lt;optgroup label="Front-End"&gt;
@@ -268,6 +293,50 @@ querySelectorAll("#myId li").forEach((el){
 							<option disabled>Polymer</option>
 						</optgroup>
 					</select>
+				</section>
+
+				<section>
+					<img src="images/gmail.png">
+				</section>
+
+				<section>
+					<pre><code data-trim contenteditable class="xml">
+&lt;e-mails&gt;
+  &lt;e-mail&gt;
+    &lt;subject&gt;Valar Morghulis&lt;/subject&gt;
+    &lt;sent&gt;2014-10-03&lt;/sent&gt;
+    &lt;summary&gt;Dracarys!&lt;/summary&gt;
+  &lt;/e-mail&gt;
+  &lt;e-mail&gt;
+    &lt;subject&gt;Reminder: Beware!&lt;/subject&gt;
+    &lt;sent&gt;2012-10-04&lt;/sent&gt;
+    &lt;summary&gt;The night is dark and full of terrors. &lt;/summary&gt;
+  &lt;/e-mail&gt;
+&lt;/e-mails&gt;
+&lt;hangouts&gt;
+  &lt;hangout with="arya.stark@gmail.com"&gt;
+    &lt;you&gt;What do we say to the God of death?&lt;/you&gt;
+    &lt;her&gt;Not today.&lt;/her&gt;
+  &lt;/hangout&gt;
+  &lt;hangout with="ned.stark@gmail.com"&gt;
+    &lt;him&gt;War was easier than daughters.&lt;/him&gt;
+  &lt;/hangout&gt;
+&lt;/hangouts&gt;
+					</code></pre>
+				</section>
+
+				<section>
+					<h1>Polymer</h1>
+					<img style="border:0; background: none; box-shadow: none" src="images/polymer-logo.svg" alt="Polymer logo"></img>
+				</section>
+
+				<section>
+					<img src="images/architecture.svg" style="background-color: white">
+				</section>
+
+				<section>
+					<h2>A quick demo</h2>
+					<p><a href="http://www.polymer-project.org/tools/designer/">Polymer Designer (JS)</a></p>
 				</section>
 
 				<section>
@@ -329,12 +398,17 @@ class ClickCounterElement extends PolymerElement {
 }
 </code></pre>
 				</section>
+
 				<section>
 					<h2>Shadow DOM</h2>
+					In the settings of Chrome Dev Tools.
+
 					<pre><code><content select=".email"></content></code></pre>
 				</section>
+
 				<section>
-					<h1>&lt;thank-you&gt;</h1>
+					<h1>&lt;/thank-you&gt;</h1>
+					<img src="images/clap.gif">
 				</section>
 
 			</div>

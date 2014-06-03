@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="420px" viewBox="0 0 500 420" enable-background="new 0 0 500 420" xml:space="preserve">
+<polygon id="Native_Bedrock_1_" fill="#E0E1E0" stroke="#989898" stroke-miterlimit="10" points="447.113,362.482 394.57,362.482 
+	394.57,375.617 342.025,375.617 342.025,388.755 289.481,388.755 289.481,401.892 236.937,401.892 236.937,375.617 184.393,375.617 
+	184.393,349.346 131.848,349.346 131.848,414.298 473.387,414.298 473.387,362.482 "/>
+<g id="Kernel">
+	<rect x="131.848" y="216.525" fill="#FFD24E" stroke="#F3B41B" stroke-miterlimit="10" width="249.316" height="27.732"/>
+	<text transform="matrix(1.028 0 0 1 234.0039 234.0391)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">polymer.js</text>
+</g>
+<g id="Applications">
+	<g>
+		
+			<rect x="223.8" y="45.026" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="65.682" height="52.545"/>
+		<rect x="131.848" y="31.891" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" width="39.409" height="39.408"/>
+		
+			<rect x="171.256" y="5.618" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="52.543" height="65.681"/>
+		
+			<rect x="289.481" y="71.299" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="26.563" height="26.272"/>
+		
+			<rect x="316.045" y="45.026" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="25.98" height="70.204"/>
+		
+			<rect x="381.165" y="136.979" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="39.679" height="39.409"/>
+		
+			<rect x="342.025" y="84.435" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="39.14" height="91.954"/>
+		
+			<rect x="420.843" y="163.251" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="13.136" height="13.137"/>
+		
+			<rect x="433.979" y="123.843" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="13.135" height="13.135"/>
+		
+			<rect x="447.113" y="110.707" opacity="0.1" fill="#577EC0" stroke="#3D66B0" stroke-miterlimit="10" enable-background="new    " width="26.273" height="26.271"/>
+	</g>
+	<text transform="matrix(1 0 0 1 139.4653 56.7026)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Pica</text>
+</g>
+<g id="Components">
+	<g>
+		
+			<rect x="263.209" y="97.571" opacity="0.1" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" enable-background="new    " width="52.898" height="65.68"/>
+		
+			<rect x="316.107" y="115.23" opacity="0.1" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" enable-background="new    " width="25.918" height="48.021"/>
+		<rect x="131.848" y="163.251" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" width="210.054" height="53.274"/>
+		<rect x="131.848" y="71.299" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" width="131.361" height="91.952"/>
+		
+			<rect x="433.979" y="136.979" opacity="0.1" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" enable-background="new    " width="39.408" height="107.278"/>
+		
+			<rect x="342.025" y="176.389" opacity="0.1" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" enable-background="new    " width="39.14" height="39.407"/>
+		
+			<rect x="381.165" y="176.389" opacity="0.1" fill="#06A861" stroke="#08784C" stroke-miterlimit="10" enable-background="new    " width="52.813" height="67.869"/>
+	</g>
+	<text transform="matrix(1 0 0 1 218.0859 187.1187)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Polymer</text>
+	<text transform="matrix(1 0 0 1 215.1621 201.1323)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Elements</text>
+	<text transform="matrix(1 0 0 1 168.6577 116.3037)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Polymer UI</text>
+	<text transform="matrix(1 0 0 1 173.1929 130.3169)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Elements</text>
+</g>
+<g id="Foundation">
+	<g>
+		<rect x="236.937" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.545" height="144.498"/>
+		<rect x="289.481" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.544" height="131.361"/>
+		<rect x="342.025" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.545" height="118.224"/>
+		<rect x="394.57" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.544" height="105.089"/>
+		<rect x="184.393" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.544" height="118.224"/>
+		<rect x="447.113" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.545" height="105.089"/>
+		<rect x="131.848" y="257.394" fill="#F04D41" stroke="#CD382D" stroke-miterlimit="10" width="52.544" height="91.952"/>
+	</g>
+	<g>
+		<text transform="matrix(0 -1 1 0 423.7627 326.5586)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">MDV</text>
+		<text transform="matrix(0 -1 1 0 156.6611 327.3828)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Mutation  </text>
+		<text transform="matrix(0 -1 1 0 170.6729 330.2949)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Observers</text>
+		<text transform="matrix(0 -1 1 0 476.3066 350.9883)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Web Animations</text>
+		<text transform="matrix(0 -1 1 0 215.043 354.4746)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Pointer Events</text>
+		<text transform="matrix(0 -1 1 0 268.3164 359.4121)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Shadow DOM</text>
+		<text transform="matrix(0 -1 1 0 372.6777 353.4863)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">HTML Imports</text>
+		<text transform="matrix(0 -1 1 0 319.4014 369.1465)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">Custom Elements</text>
+	</g>
+	<rect x="131.848" y="244.257" fill="#CD382D" stroke="#CD382D" stroke-miterlimit="10" width="367.811" height="15.099"/>
+	<text transform="matrix(1.0833 0 0 1 286.2168 255.7129)" fill="#010101" font-family="'ArialMT'" font-size="11.6765">platform.js</text>
+</g>
+<g id="Legend">
+	<g id="Native">
+		<rect x="37.463" y="349.346" opacity="0.4" fill="#E0E1E0" enable-background="new    " width="94.385" height="64.952"/>
+		
+			<rect id="Extra_Block_1_" y="349.346" opacity="0.4" fill="#E0E1E0" enable-background="new    " width="37.463" height="64.952"/>
+		<text transform="matrix(1 0 0 1 66.5005 386.5645)" fill="#989898" font-family="'ArialMT'" font-size="11.6765">Native</text>
+	</g>
+	<g id="Foundation_1_">
+		<rect x="37.463" y="244.257" opacity="0.2" fill="#F04D41" enable-background="new    " width="94.385" height="105.088"/>
+		<text transform="matrix(1 0 0 1 53.8335 303.3672)" fill="#CD382D" font-family="'ArialMT'" font-size="11.6765">Foundation</text>
+	</g>
+	<g id="Kernel_1_">
+		<rect x="37.463" y="216.525" opacity="0.2" fill="#FFD24E" enable-background="new    " width="94.385" height="27.732"/>
+		<text transform="matrix(1 0 0 1 67.9204 234.0391)" fill="#F3B41B" font-family="'ArialMT'" font-size="11.6765">Core</text>
+	</g>
+	<g id="Components_1_">
+		<rect x="37.463" y="71.299" opacity="0.2" fill="#06A861" enable-background="new    " width="94.385" height="145.226"/>
+		<text transform="matrix(1 0 0 1 59.563 150.1138)" fill="#08784C" font-family="'ArialMT'" font-size="11.6765">Elements</text>
+	</g>
+	<g id="Applications_1_">
+		<rect x="37.463" y="31.891" opacity="0.2" fill="#577EC0" enable-background="new    " width="94.385" height="39.408"/>
+		<rect id="Extra_Block" y="31.891" opacity="0.2" fill="#577EC0" enable-background="new    " width="37.463" height="39.408"/>
+		<text transform="matrix(1 0 0 1 51.5757 56.7021)" fill="#3D66B0" font-family="'ArialMT'" font-size="11.6765">Applications</text>
+	</g>
+	<g id="Toolkitchen">
+		<rect y="71.299" opacity="0.1" fill="#603A17" enable-background="new    " width="37.463" height="278.046"/>
+		<text transform="matrix(0 -1 1 0 21.6279 240.7578)" fill="#603A17" font-family="'ArialMT'" font-size="11.6765">Polymer</text>
+	</g>
+</g>
+</svg>
